@@ -1,0 +1,81 @@
+﻿Year,State,Sales,Region
+2017,California,"$146,411 ",West
+2016,California,"$131,568 ",West
+2017,New York,"$93,932 ",East
+2014,California,"$91,300 ",West
+2015,California,"$88,449 ",West
+2015,New York,"$80,328 ",East
+2016,New York,"$71,858 ",East
+2017,Washington,"$65,546 ",West
+2014,New York,"$64,793 ",East
+2014,Texas,"$50,628 ",Central
+2017,Texas,"$43,419 ",Central
+2017,Pennsylvania,"$42,691 ",East
+2016,Texas,"$41,688 ",Central
+2015,Texas,"$34,452 ",Central
+2014,Florida,"$34,247 ",South
+2016,Pennsylvania,"$33,071 ",East
+2014,Washington,"$29,876 ",West
+2016,Michigan,"$27,422 ",Central
+2016,Virginia,"$26,695 ",South
+2017,Florida,"$26,449 ",South
+2017,Michigan,"$25,839 ",Central
+2014,Virginia,"$25,799 ",South
+2016,Indiana,"$25,462 ",Central
+2016,Ohio,"$24,749 ",East
+2017,Illinois,"$24,349 ",Central
+2017,North Carolina,"$23,458 ",South
+2015,Washington,"$23,419 ",West
+2017,Ohio,"$23,264 ",East
+2016,Illinois,"$21,030 ",Central
+2015,Pennsylvania,"$20,513 ",East
+2014,Pennsylvania,"$20,247 ",East
+2016,Washington,"$19,815 ",West
+2017,Georgia,"$19,163 ",South
+2015,Illinois,"$18,580 ",Central
+2017,Indiana,"$18,511 ",Central
+2016,New Jersey,"$17,983 ",East
+2015,Michigan,"$16,843 ",Central
+2014,Illinois,"$16,203 ",Central
+2017,Tennessee,"$16,118 ",South
+2015,Ohio,"$16,109 ",East
+2014,Minnesota,"$15,884 ",Central
+2017,Kentucky,"$15,537 ",South
+2015,Florida,"$15,180 ",South
+2016,North Carolina,"$14,970 ",South
+2014,Ohio,"$14,131 ",East
+2016,Georgia,"$14,058 ",South
+2016,Florida,"$13,603 ",South
+2016,Wisconsin,"$13,340 ",Central
+2015,Georgia,"$11,340 ",South
+2017,Arizona,"$11,140 ",West
+2016,Colorado,"$10,666 ",West
+2015,Virginia,"$10,545 ",South
+2017,Colorado,"$10,299 ",West
+2015,Arizona,"$9,611 ",West
+2017,New Jersey,"$9,483 ",East
+2014,North Carolina,"$8,619 ",South
+2015,North Carolina,"$8,557 ",South
+2015,Tennessee,"$8,363 ",South
+2015,Wisconsin,"$8,363 ",Central
+2014,Arizona,"$8,289 ",West
+2014,Kentucky,"$8,281 ",South
+2015,Kentucky,"$7,676 ",South
+2017,Virginia,"$7,602 ",South
+2017,Minnesota,"$6,729 ",Central
+2015,Indiana,"$6,641 ",Central
+2014,Colorado,"$6,503 ",West
+2016,Arizona,"$6,243 ",West
+2014,Michigan,"$6,176 ",Central
+2015,Minnesota,"$5,725 ",Central
+2017,Wisconsin,"$5,571 ",Central
+2016,Kentucky,"$5,104 ",South
+2014,Wisconsin,"$4,850 ",Central
+2015,Colorado,"$4,642 ",West
+2014,Georgia,"$4,541 ",South
+2014,New Jersey,"$4,192 ",East
+2015,New Jersey,"$4,105 ",East
+2016,Tennessee,"$3,131 ",South
+2014,Tennessee,"$3,050 ",South
+2014,Indiana,"$2,935 ",Central
+2016,Minnesota,"$1,527 ",Central

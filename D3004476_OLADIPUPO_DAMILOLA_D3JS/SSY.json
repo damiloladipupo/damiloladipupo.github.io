@@ -1,0 +1,482 @@
+[
+ {
+   "Year": 2017,
+   "State": "California",
+   "Sales": "$146,411 ",
+   "Region": "West"
+ },
+ {
+   "Year": 2016,
+   "State": "California",
+   "Sales": "$131,568 ",
+   "Region": "West"
+ },
+ {
+   "Year": 2017,
+   "State": "New York",
+   "Sales": "$93,932 ",
+   "Region": "East"
+ },
+ {
+   "Year": 2014,
+   "State": "California",
+   "Sales": "$91,300 ",
+   "Region": "West"
+ },
+ {
+   "Year": 2015,
+   "State": "California",
+   "Sales": "$88,449 ",
+   "Region": "West"
+ },
+ {
+   "Year": 2015,
+   "State": "New York",
+   "Sales": "$80,328 ",
+   "Region": "East"
+ },
+ {
+   "Year": 2016,
+   "State": "New York",
+   "Sales": "$71,858 ",
+   "Region": "East"
+ },
+ {
+   "Year": 2017,
+   "State": "Washington",
+   "Sales": "$65,546 ",
+   "Region": "West"
+ },
+ {
+   "Year": 2014,
+   "State": "New York",
+   "Sales": "$64,793 ",
+   "Region": "East"
+ },
+ {
+   "Year": 2014,
+   "State": "Texas",
+   "Sales": "$50,628 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2017,
+   "State": "Texas",
+   "Sales": "$43,419 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2017,
+   "State": "Pennsylvania",
+   "Sales": "$42,691 ",
+   "Region": "East"
+ },
+ {
+   "Year": 2016,
+   "State": "Texas",
+   "Sales": "$41,688 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2015,
+   "State": "Texas",
+   "Sales": "$34,452 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2014,
+   "State": "Florida",
+   "Sales": "$34,247 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2016,
+   "State": "Pennsylvania",
+   "Sales": "$33,071 ",
+   "Region": "East"
+ },
+ {
+   "Year": 2014,
+   "State": "Washington",
+   "Sales": "$29,876 ",
+   "Region": "West"
+ },
+ {
+   "Year": 2016,
+   "State": "Michigan",
+   "Sales": "$27,422 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2016,
+   "State": "Virginia",
+   "Sales": "$26,695 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2017,
+   "State": "Florida",
+   "Sales": "$26,449 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2017,
+   "State": "Michigan",
+   "Sales": "$25,839 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2014,
+   "State": "Virginia",
+   "Sales": "$25,799 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2016,
+   "State": "Indiana",
+   "Sales": "$25,462 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2016,
+   "State": "Ohio",
+   "Sales": "$24,749 ",
+   "Region": "East"
+ },
+ {
+   "Year": 2017,
+   "State": "Illinois",
+   "Sales": "$24,349 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2017,
+   "State": "North Carolina",
+   "Sales": "$23,458 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2015,
+   "State": "Washington",
+   "Sales": "$23,419 ",
+   "Region": "West"
+ },
+ {
+   "Year": 2017,
+   "State": "Ohio",
+   "Sales": "$23,264 ",
+   "Region": "East"
+ },
+ {
+   "Year": 2016,
+   "State": "Illinois",
+   "Sales": "$21,030 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2015,
+   "State": "Pennsylvania",
+   "Sales": "$20,513 ",
+   "Region": "East"
+ },
+ {
+   "Year": 2014,
+   "State": "Pennsylvania",
+   "Sales": "$20,247 ",
+   "Region": "East"
+ },
+ {
+   "Year": 2016,
+   "State": "Washington",
+   "Sales": "$19,815 ",
+   "Region": "West"
+ },
+ {
+   "Year": 2017,
+   "State": "Georgia",
+   "Sales": "$19,163 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2015,
+   "State": "Illinois",
+   "Sales": "$18,580 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2017,
+   "State": "Indiana",
+   "Sales": "$18,511 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2016,
+   "State": "New Jersey",
+   "Sales": "$17,983 ",
+   "Region": "East"
+ },
+ {
+   "Year": 2015,
+   "State": "Michigan",
+   "Sales": "$16,843 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2014,
+   "State": "Illinois",
+   "Sales": "$16,203 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2017,
+   "State": "Tennessee",
+   "Sales": "$16,118 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2015,
+   "State": "Ohio",
+   "Sales": "$16,109 ",
+   "Region": "East"
+ },
+ {
+   "Year": 2014,
+   "State": "Minnesota",
+   "Sales": "$15,884 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2017,
+   "State": "Kentucky",
+   "Sales": "$15,537 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2015,
+   "State": "Florida",
+   "Sales": "$15,180 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2016,
+   "State": "North Carolina",
+   "Sales": "$14,970 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2014,
+   "State": "Ohio",
+   "Sales": "$14,131 ",
+   "Region": "East"
+ },
+ {
+   "Year": 2016,
+   "State": "Georgia",
+   "Sales": "$14,058 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2016,
+   "State": "Florida",
+   "Sales": "$13,603 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2016,
+   "State": "Wisconsin",
+   "Sales": "$13,340 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2015,
+   "State": "Georgia",
+   "Sales": "$11,340 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2017,
+   "State": "Arizona",
+   "Sales": "$11,140 ",
+   "Region": "West"
+ },
+ {
+   "Year": 2016,
+   "State": "Colorado",
+   "Sales": "$10,666 ",
+   "Region": "West"
+ },
+ {
+   "Year": 2015,
+   "State": "Virginia",
+   "Sales": "$10,545 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2017,
+   "State": "Colorado",
+   "Sales": "$10,299 ",
+   "Region": "West"
+ },
+ {
+   "Year": 2015,
+   "State": "Arizona",
+   "Sales": "$9,611 ",
+   "Region": "West"
+ },
+ {
+   "Year": 2017,
+   "State": "New Jersey",
+   "Sales": "$9,483 ",
+   "Region": "East"
+ },
+ {
+   "Year": 2014,
+   "State": "North Carolina",
+   "Sales": "$8,619 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2015,
+   "State": "North Carolina",
+   "Sales": "$8,557 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2015,
+   "State": "Tennessee",
+   "Sales": "$8,363 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2015,
+   "State": "Wisconsin",
+   "Sales": "$8,363 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2014,
+   "State": "Arizona",
+   "Sales": "$8,289 ",
+   "Region": "West"
+ },
+ {
+   "Year": 2014,
+   "State": "Kentucky",
+   "Sales": "$8,281 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2015,
+   "State": "Kentucky",
+   "Sales": "$7,676 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2017,
+   "State": "Virginia",
+   "Sales": "$7,602 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2017,
+   "State": "Minnesota",
+   "Sales": "$6,729 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2015,
+   "State": "Indiana",
+   "Sales": "$6,641 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2014,
+   "State": "Colorado",
+   "Sales": "$6,503 ",
+   "Region": "West"
+ },
+ {
+   "Year": 2016,
+   "State": "Arizona",
+   "Sales": "$6,243 ",
+   "Region": "West"
+ },
+ {
+   "Year": 2014,
+   "State": "Michigan",
+   "Sales": "$6,176 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2015,
+   "State": "Minnesota",
+   "Sales": "$5,725 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2017,
+   "State": "Wisconsin",
+   "Sales": "$5,571 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2016,
+   "State": "Kentucky",
+   "Sales": "$5,104 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2014,
+   "State": "Wisconsin",
+   "Sales": "$4,850 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2015,
+   "State": "Colorado",
+   "Sales": "$4,642 ",
+   "Region": "West"
+ },
+ {
+   "Year": 2014,
+   "State": "Georgia",
+   "Sales": "$4,541 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2014,
+   "State": "New Jersey",
+   "Sales": "$4,192 ",
+   "Region": "East"
+ },
+ {
+   "Year": 2015,
+   "State": "New Jersey",
+   "Sales": "$4,105 ",
+   "Region": "East"
+ },
+ {
+   "Year": 2016,
+   "State": "Tennessee",
+   "Sales": "$3,131 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2014,
+   "State": "Tennessee",
+   "Sales": "$3,050 ",
+   "Region": "South"
+ },
+ {
+   "Year": 2014,
+   "State": "Indiana",
+   "Sales": "$2,935 ",
+   "Region": "Central"
+ },
+ {
+   "Year": 2016,
+   "State": "Minnesota",
+   "Sales": "$1,527 ",
+   "Region": "Central"
+ }
+]

@@ -1,0 +1,58 @@
+{
+  "2014": [
+      { "Month": "Jan", "Furniture": 691.20, "Office_Supplies": 4573.74, "Technology": 3056.86 },
+      { "Month": "Feb", "Furniture": 2878.62, "Office_Supplies": 2336.19, "Technology": 7203.10 },
+      { "Month": "Mar", "Furniture": 4888.29, "Office_Supplies": 6411.43, "Technology": 4003.85 },
+      { "Month": "Apr", "Furniture": 2085.54, "Office_Supplies": 5678.60, "Technology": 5138.18 },
+      { "Month": "May", "Furniture": 546.02, "Office_Supplies": 5082.51, "Technology": 6555.30 },
+      { "Month": "Jun", "Furniture": 3885.92, "Office_Supplies": 8504.16, "Technology": 11025.17 },
+      { "Month": "Jul", "Furniture": 864.51, "Office_Supplies": 953.27, "Technology": 3767.22 },
+      { "Month": "Aug", "Furniture": 723.08, "Office_Supplies": 9773.52, "Technology": 13217.07 },
+      { "Month": "Sep", "Furniture": 10419.25, "Office_Supplies": 17662.76, "Technology": 7694.88 },
+      { "Month": "Oct", "Furniture": 9262.45, "Office_Supplies": 5746.08, "Technology": 10954.89 },
+      { "Month": "Nov", "Furniture": 4274.80, "Office_Supplies": 9799.49, "Technology": 18634.89 },
+      { "Month": "Dec", "Furniture": 13177.24, "Office_Supplies": 9474.80, "Technology": 17995.94 }
+  ],
+  "2015": [
+      { "Month": "Jan", "Furniture": 1861.76, "Office_Supplies": 6856.43, "Technology": 5406.97 },
+      { "Month": "Feb", "Furniture": 4438.36, "Office_Supplies": 4171.00, "Technology": 6390.73 },
+      { "Month": "Mar", "Furniture": 1728.14, "Office_Supplies": 9201.09, "Technology": 7063.68 },
+      { "Month": "Apr", "Furniture": 3175.55, "Office_Supplies": 5713.62, "Technology": 8477.79 },
+      { "Month": "May", "Furniture": 6907.87, "Office_Supplies": 7782.70, "Technology": 15186.14 },
+      { "Month": "Jun", "Furniture": 7720.22, "Office_Supplies": 9647.81, "Technology": 17039.12 },
+      { "Month": "Jul", "Furniture": 3016.96, "Office_Supplies": 6312.38, "Technology": 6256.05 },
+      { "Month": "Aug", "Furniture": 6344.74, "Office_Supplies": 15418.96, "Technology": 21810.18 },
+      { "Month": "Sep", "Furniture": 8613.74, "Office_Supplies": 7581.20, "Technology": 11581.25 },
+      { "Month": "Oct", "Furniture": 7579.59, "Office_Supplies": 5999.69, "Technology": 17083.60 },
+      { "Month": "Nov", "Furniture": 4690.23, "Office_Supplies": 11635.96, "Technology": 15494.53 },
+      { "Month": "Dec", "Furniture": 5779.18, "Office_Supplies": 12984.67, "Technology": 14186.89 }
+  ],
+  "2016": [
+      { "Month": "Jan", "Furniture": 10821.46, "Office_Supplies": 9854.45, "Technology": 6134.65 },
+      { "Month": "Feb", "Furniture": 6402.26, "Office_Supplies": 8040.17, "Technology": 9320.07 },
+      { "Month": "Mar", "Furniture": 2612.85, "Office_Supplies":  9418.48, "Technology": 11402.44 },
+      { "Month": "Apr", "Furniture": 1365.00, "Office_Supplies": 7198.05, "Technology": 10898.99 },
+      { "Month": "May", "Furniture": 952.03, "Office_Supplies": 11986.14, "Technology": 15557.53 },
+      { "Month": "Jun", "Furniture": 10196.82, "Office_Supplies": 10627.09, "Technology": 24654.50},
+      { "Month": "Jul", "Furniture": 6862.54, "Office_Supplies": 12830.79, "Technology": 9170.49 },
+      { "Month": "Aug", "Furniture": 4536.18, "Office_Supplies": 11041.13, "Technology": 15446.37 },
+      { "Month": "Sep", "Furniture": 11511.98, "Office_Supplies": 14370.42, "Technology": 13023.26 },
+      { "Month": "Oct", "Furniture": 6711.78, "Office_Supplies": 11880.34, "Technology": 23841.10 },
+      { "Month": "Nov", "Furniture": 13528.84, "Office_Supplies": 16435.19, "Technology": 18098.97 },
+      { "Month": "Dec", "Furniture": 8561.17, "Office_Supplies":25563.49, "Technology": 16078.21 }
+  ],
+  "2017": [
+      { "Month": "Jan", "Furniture": 4522.82, "Office_Supplies": 9592.76, "Technology": 13885.81 },
+      { "Month": "Feb", "Furniture": 3819.12, "Office_Supplies": 7191.92, "Technology": 8740.66 },
+      { "Month": "Mar", "Furniture": 9499.70, "Office_Supplies": 10728.81, "Technology":17128.75 },
+      { "Month": "Apr", "Furniture": 3214.60, "Office_Supplies": 10082.47, "Technology": 10485.24 },
+      { "Month": "May", "Furniture": 4714.88, "Office_Supplies": 14489.89, "Technology":14748.79 },
+      { "Month": "Jun", "Furniture": 7455.44, "Office_Supplies": 16228.09, "Technology": 20095.08},
+      { "Month": "Jul", "Furniture": 3410.59, "Office_Supplies": 11517.06, "Technology": 13108.23 },
+      { "Month": "Aug", "Furniture": 9018.05, "Office_Supplies": 24209.92, "Technology": 20314.93 },
+      { "Month": "Sep", "Furniture": 17999.27, "Office_Supplies": 21769.76, "Technology": 28210.42 },
+      { "Month": "Oct", "Furniture": 9066.22, "Office_Supplies": 18911.34, "Technology": 30232.28 },
+      { "Month": "Nov", "Furniture": 9106.12, "Office_Supplies": 22452.78, "Technology": 31297.69 },
+      { "Month": "Dec", "Furniture": 7485.26, "Office_Supplies":12751.27, "Technology": 26679.99 }
+  ]
+}

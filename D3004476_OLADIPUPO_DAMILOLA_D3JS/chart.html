@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SALES OF STATES BY SALES ACROSS THE YEARS</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+      .tooltip {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 12px;
+        pointer-events: none;
+        font-family: "Times New Roman";
+      }
+
+      h2 {
+        color: white;
+        background-color: #40679e;
+        padding: 20px;
+        text-align: center;
+        font-family: "Times New Roman";
+      }
+
+      .dropdown-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .dropdown-container select {
+        margin: 0 10px;
+      }
+
+      #chart {
+        float: left;
+        margin-top: 100px;
+        margin-left: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Sales Analysis by Location Across the Years</h2>
+    <svg id="chart"></svg>
+    <div class="dropdown-container">
+      <div>
+        <label for="year-select">Year:</label>
+        <select id="year-select"></select>
+      </div>
+      <div>
+        <label for="region-select">Region:</label>
+        <select id="region-select"></select>
+      </div>
+    </div>
+
+    <script src="chart.js"></script>
+  </body>
+</html>

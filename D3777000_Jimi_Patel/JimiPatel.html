@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Store</title>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: white; 
+        }
+        
+        /* Adding Arial font to specified elements */
+        h2, .legend-item span, .filter-container label {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /*Tooltip*/
+        .tooltip {
+            position: absolute;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+            font: 12px;
+            font-family:Arial, Helvetica, sans-serif ; 
+            border: 0;
+            border-radius: 2px;
+            pointer-events: none;
+            z-index: 999; 
+            background-color: rgba(255, 255, 255, 0.9); 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+            opacity: 0; 
+            transition: opacity 0.3s; 
+            
+        }
+        
+        /* total sales */
+        .total-sales {
+            position: absolute;
+            top: 30px; 
+            left: 10px; 
+            font-size: 14px;
+            z-index: 10; 
+        }
+        
+        /* Bar Graph  */
+        #barGraph {
+            width: 100%; 
+            height: calc(100% - 70px); 
+            margin-top: 30px; 
+        }
+
+        /* Bar graph Label */
+        .bar-label {
+            font-size: 12px; 
+            text-anchor: middle; 
+        }
+
+
+        /*Legends*/
+        .legend-container {
+            position: absolute;
+            top: 100px; 
+            left: 50%; 
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-right: 110px; 
+        }
+        
+        .legend-item span {
+            margin-left: 5px;
+            white-space: nowrap;
+        }
+
+        /*Tree Nodes */
+        text {
+            font-family:Arial, Helvetica, sans-serif ;
+            fill: #000;
+            font-size: 15px; 
+        }
+
+        /*Heading */
+        h2 {
+            color: white;
+            background-color: #40679e;
+            padding: 20px;
+            text-align: center;
+            margin:15px;
+            
+        }
+        /*Filter Container*/
+        .filter-container {
+            display: flex;
+            align-items: center;
+        }
+        .filter-container label {
+            margin-right: 10px; 
+        }
+
+        #region-dropdown option {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        /*Tree branches*/
+        .link {
+        fill: none;
+        stroke-width: 1.5px; 
+        stroke-opacity: 0.9; 
+        transition: stroke-width 0.3s, stroke-opacity 0.3s; 
+        }
+
+        /* Coloring the branches */
+        .link.category {
+        stroke: #86A7FC;
+        }
+
+        .link.subcategory {
+        stroke: #7F9F80; 
+        }
+
+        .link.product {
+        stroke: #FF9843; 
+        }
+
+        /*Tree branches */
+        .link:hover {
+        stroke-width: 5px; 
+        stroke-opacity: 1.5; 
+        }
+
+        
+    </style>
+    <script src="https://d3js.org/d3.v7.min.js" defer></script>
+
+    
+</head>
+<body>
+    <h2 id="title">Sales Analysis by Products</h2>
+    
+    <div class="tooltip">
+        <div id="nodeName"></div>
+        <div id="totalSales"></div>
+        <div id="barGraph"></div>
+        
+    </div>
+ 
+    <div class="legend-container">
+        <div class="legend-item">
+            <div style="width: 20px; height: 20px; background-color:  #86A7FC;"></div>
+            <span>Category</span>
+        </div>
+        <div class="legend-item">
+            <div style="width: 20px; height: 20px; background-color: #7F9F80;"></div>
+            <span>Subcategory</span>
+        </div>
+        <div class="legend-item">
+            <div style="width: 20px; height: 20px; background-color: #FF9843;"></div>
+            <span>Product name</span>
+        </div>
+        
+    </div>
+    <script src="JimiPatel.js" defer></script>
+    
+</body>
+</html>

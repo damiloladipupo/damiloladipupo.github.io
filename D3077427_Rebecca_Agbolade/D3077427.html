@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Visualization</title>
+    <script src="https://d3js.org/d3.v7.min.js" charset="utf-8"></script>
+    <style>
+        /* CSS styles go here */
+        * {
+            font-family: Arial, sans-serif;
+        }
+
+        .tooltip {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            pointer-events: none;
+            opacity: 0;
+        }
+
+        h2 {
+            color: white;
+            background-color: #40679e;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .row {
+            margin: 15px;
+        }
+
+        .column1 {
+            width: 100%;
+        }
+
+        .card {
+            width: 100%;
+            height: 950px;
+            margin: 1px;
+            display: block;
+            text-align: center;
+            float: left;
+        }
+
+        .container {
+            padding: 2px;
+        }
+
+        .header {
+            background-color: #141313;
+            text-align: center;
+            font-size: 15px;
+            color: #ffffff;
+        }
+
+        circle {
+            stroke: black;
+            stroke-width: .11px;
+            fill-opacity: 1.2;
+            transition: fill-opacity 0.2s ease-out; /* Add transition for smooth effect */
+        }
+
+        circle:hover {
+            fill-opacity: 1.5;
+            stroke-width: 3px;
+            stroke: #0a0a0a;
+            animation: bounce 0.5s infinite alternate; /* Apply the bounce animation */
+        }
+
+        /* Define bounce animation */
+        @keyframes bounce {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .tooltip {
+            visibility: visible;
+            transform: scale(80%);
+        }
+
+        .tooltip>div {
+            width: 5rem;
+            height: 2rem;
+            z-index: 2;
+        }
+
+        .tooltip>text {
+            font-size: 12px;
+            visibility: visible;
+        }
+
+        .active>.tooltip,
+        .active>.guideline {
+            visibility: visible;
+        }
+
+        #chart {
+            border-radius: 15px;
+            position: absolute;
+            margin: none;
+        }
+
+        .title {
+            stroke: #037971;
+            font-weight: 100;
+            text-transform: uppercase;
+            font-style: bold;
+            font-size: 20px;
+        }
+
+        #selectButton {
+            padding: 2px;
+            margin-top: 1rem;
+            margin-right: 1rem;
+            float: right; /* Add right margin */
+        }
+
+        path {
+            stroke-width: 2px;
+            fill: black;
+        }
+
+        p {
+            text-align: center;
+            font-weight: bold;
+            font-size: 1rem;
+            color: rgb(51, 51, 51);
+        }
+
+        svg {
+            margin-left: 40%;
+        }
+
+        /* New styles for labels */
+        .label {
+            font-size: 10px;
+            fill: black;
+            text-anchor: middle;
+            pointer-events: none;
+            opacity: 0; /* Initially hide labels */
+            transition: opacity 0.2s ease-out; /* Add transition for smooth effect */
+        }
+
+        .label.active {
+            opacity: 1; /* Show labels on hover */
+        }
+
+        .label:hover {
+            font-size: 12px; /* Increase font size on hover */
+        }
+
+        /* Feedback message style */
+        .feedback-message {
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #333; 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <!-- Chart -->
+        <div class="column1">
+            <div class="card" id="salesChart">
+                <div class="header">
+                    <h2>Sales Analysis By Country</h2>
+                </div>
+                <div id="selectButton">
+                    <select id="RegionSelect">
+                        <!-- <option value="World">Region</option> -->
+                        <option value="Select All" title="Show data for all regions"> All Regions</option>
+                        <option value="West" title="Show data for the West region">West</option>
+                        <option value="East" title="Show data for the East region">East</option>
+                        <option value="South" title="Show data for the South region">South</option>
+                        <option value="Central" title="Show data for the Central region">Central</option>
+                        <option value="Africa" title="Show data for the Africa region">Africa</option>
+                        <option value="Central Asia" title="Show data for the Central Asia region">Central Asia</option>
+                        <option value="North Asia" title="Show data for the North Asia region">North Asia</option>
+                        <option value="Caribbean" title="Show data for the Caribbean region">Caribbean</option>
+                        <option value="EMEA" title="Show data for the EMEA region">EMEA</option>
+                        <option value="Oceania" title="Show data for the Oceania region">Oceania</option>
+                        <option value="Southeast Asia" title="Show data for the Southeast Asia region">Southeast Asia</option>
+                        <option value="Canada" title="Show data for the Canada region">Canada</option>
+                    </select>
+                </div>
+                <div id="chart">
+                    <svg></svg>
+                </div>
+            </div>
+            <!-- Feedback message container -->
+            <div class="feedback-message" id="feedbackMessage"></div>
+        </div>
+
+    </div>
+    <!-- JavaScript -->
+    <script src="D3077427.JS"></script>
+
+    <!-- Define glow filter -->
+    <svg style="height: 0; width: 0; position: absolute;" aria-hidden="true">
+        <defs>
+            <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stdDeviation="3" result="glow" />
+                <feMerge>
+                    <feMergeNode in="glow" />
+                    <feMergeNode in="glow" />
+                </feMerge>
+            </filter>
+        </defs>
+    </svg>
+</body>
+
+</html>
